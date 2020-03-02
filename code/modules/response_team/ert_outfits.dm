@@ -290,7 +290,7 @@
 
 /datum/outfit/job/centcom/response_team/medic/amber
 	name = "RT Medic (Amber)"
-
+	head = /obj/item/clothing/head/helmet/ert/medical
 	shoes = /obj/item/clothing/shoes/white
 	gloves = /obj/item/clothing/gloves/color/latex
 	suit = /obj/item/clothing/suit/armor/vest/ert/medical
@@ -305,7 +305,6 @@
 	l_hand = /obj/item/defibrillator/loaded
 
 	backpack_contents = list(
-		/obj/item/clothing/head/helmet/ert/medical = 1,
 		/obj/item/clothing/mask/surgical = 1,
 		/obj/item/storage/firstaid/adv = 1,
 		/obj/item/storage/firstaid/regular = 1,
@@ -320,7 +319,7 @@
 /datum/outfit/job/centcom/response_team/medic/red
 	name = "RT Medic (Red)"
 	rt_mob_job = "ERT Medical"
-	shoes = /obj/item/clothing/shoes/white
+	shoes = /obj/item/clothing/shoes/magboots
 	gloves = /obj/item/clothing/gloves/color/latex/nitrile
 	suit = /obj/item/clothing/suit/space/hardsuit/ert/medical
 	glasses = /obj/item/clothing/glasses/hud/health/sunglasses
@@ -341,7 +340,6 @@
 		/obj/item/storage/firstaid/fire = 1,
 		/obj/item/storage/box/autoinjectors = 1,
 		/obj/item/roller = 1,
-		/obj/item/clothing/shoes/magboots = 1,
 		/obj/item/bodyanalyzer = 1,
 		/obj/item/healthupgrade = 1,
 		/obj/item/handheld_defibrillator = 1
